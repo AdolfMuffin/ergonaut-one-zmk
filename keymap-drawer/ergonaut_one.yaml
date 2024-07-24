@@ -127,7 +127,7 @@ layers:
   - INSERT
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
+  - adjust
   adjust:
   - Boot
   - ''

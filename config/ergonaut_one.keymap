@@ -92,7 +92,7 @@
 &kp LEFT_ALT      &kp F1  &kp F2  &kp F3  &kp F4   &kp F5      &kp EXCLAMATION  &kp AT_SIGN    &kp HASH      &kp DOLLAR            &kp PERCENT            &none
 &kp LEFT_SHIFT    &kp F6  &kp F7  &kp F8  &kp F9   &kp F10     &kp CARET        &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none
 &kp LEFT_CONTROL  &none   &none   &none   &kp F11  &kp F12     &kp EQUAL        &kp KP_PLUS    &kp KP_MINUS  &kp UNDER             &none                  &none
-                                  &trans  &mo 3    &kp INSERT  &trans           &trans         &trans
+                                  &trans  &mo 3    &kp INSERT  &trans           &trans         &mo 3
             >;
         };
 
