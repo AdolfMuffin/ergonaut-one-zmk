@@ -1,6 +1,6 @@
 layers:
   default:
-  - {t: ']', h: Gui}
+  - {t: ']', h: LEFT ALT}
   - Q
   - W
   - E
@@ -12,7 +12,7 @@ layers:
   - O
   - P
   - '['
-  - {t: '`', h: Ctrl}
+  - {t: '`', h: LEFT SHIFT}
   - A
   - S
   - D
@@ -23,8 +23,8 @@ layers:
   - K
   - L
   - ;
-  - {t: '''', h: Ctrl}
-  - {t: '-', h: Alt}
+  - {t: '''', h: LEFT SHIFT}
+  - {t: \, h: LEFT CONTROL}
   - Z
   - X
   - C
@@ -35,98 +35,98 @@ layers:
   - ','
   - .
   - /
-  - {t: \, h: Alt}
-  - {t: ↹, h: raise}
-  - {t: ␣, h: Shift}
-  - {t: ⏎, h: lower}
-  - {t: Esc, h: lower}
-  - {t: ⌫, h: Shift}
-  - {t: ⌦, h: raise}
+  - '-'
+  - ↹
+  - {t: BACKSPACE, h: lower}
+  - ␣
+  - {t: ENTER, h: LEFT WIN}
+  - {t: ESCAPE, h: raise}
+  - {t: DELETE, h: lower}
   lower:
-  - {t: F1, h: Gui}
+  - LEFT ALT
+  - KP DOT
+  - '7'
+  - '8'
+  - '9'
+  - +
+  - Page Up
+  - Home
+  - UP ARROW
+  - End
+  - VOLUME UP
+  - ''
+  - LEFT SHIFT
+  - KP COMMA
+  - '4'
+  - '5'
+  - '6'
+  - '-'
+  - PAGE DOWN
+  - LEFT ARROW
+  - DOWN ARROW
+  - RIGHT ARROW
+  - MUTE
+  - ''
+  - LEFT CONTROL
+  - '0'
+  - '1'
+  - '2'
+  - '3'
+  - '='
+  - PRINTSCREEN
+  - PREVIOUS
+  - PLAY
+  - ⏭️
+  - Vol Down
+  - ''
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - INSERT
+  - adjust
+  - {t: ▽, type: trans}
+  raise:
+  - LEFT ALT
+  - F1
   - F2
   - F3
   - F4
   - F5
-  - F6
-  - F7
-  - F8
-  - F9
-  - F10
-  - F11
-  - F12
-  - {t: +, h: Ctrl}
   - '!'
   - '@'
   - '#'
   - $
   - '%'
+  - ''
+  - LEFT SHIFT
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
   - ^
   - '&'
   - '*'
   - (
   - )
-  - {t: '-', h: Ctrl}
-  - {t: '=', h: Alt}
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
-  - Alt
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  raise:
-  - {t: KP NUM, h: Gui}
-  - KP SLASH
-  - KP 7
-  - KP 8
-  - KP 9
-  - KP MINUS
-  - Vol Up
-  - Home
-  - Print Scrn
-  - Page Up
-  - SLCK
-  - CLCK
-  - {t: '=', h: Ctrl}
-  - KP MULTIPLY
-  - KP 4
-  - KP 5
-  - KP 6
+  - ''
+  - LEFT CONTROL
+  - ''
+  - ''
+  - ''
+  - F11
+  - F12
+  - '='
   - KP PLUS
-  - MUTE
-  - ←
-  - ↑
-  - →
-  - Insert
-  - {t: APP, h: Ctrl}
-  - Alt
-  - KP 0
-  - KP 1
-  - KP 2
-  - KP 3
-  - KP DOT
-  - Vol Down
-  - End
-  - ↓
-  - Page Down
-  - Pause Break
-  - Alt
+  - KP MINUS
+  - _
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - adjust
+  - INSERT
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   adjust:
   - Boot
@@ -135,9 +135,9 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
+  - Out BLE
+  - Out USB
+  - OUT TOG
   - ''
   - ''
   - Boot
@@ -145,15 +145,16 @@ layers:
   - BT 1
   - BT 2
   - BT 3
-  - BT 4
-  - BT 5
-  - BT 5
-  - BT 4
+  - ''
+  - ''
+  - ''
+  - ''
   - BT 3
   - BT 2
   - BT 1
   - BT CLR
-  - Reset
+  - EP OFF
+  - KP NUM
   - ''
   - ''
   - ''
@@ -163,11 +164,10 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - Reset
-  - {type: held}
-  - ''
-  - {type: held}
-  - ''
+  - EP OFF
   - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
