@@ -79,7 +79,7 @@ layers:
   - ⏭️
   - Vol Down
   - ''
-  - {t: ▽, type: trans}
+  - adjust
   - {type: held}
   - {t: ▽, type: trans}
   - INSERT
@@ -165,9 +165,9 @@ layers:
   - ''
   - ''
   - EP OFF
-  - {t: ▽, type: trans}
+  - {type: held}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - ''
   - {t: ▽, type: trans}
